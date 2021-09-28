@@ -547,6 +547,16 @@ video {
   text-align: center;
 }
 
+.text-orangeColor {
+  --tw-text-opacity: 1;
+  color: rgba(248, 113, 71, var(--tw-text-opacity));
+}
+
+.text-greenColor {
+  --tw-text-opacity: 1;
+  color: rgba(50, 255, 206, var(--tw-text-opacity));
+}
+
 @-webkit-keyframes spin {
   to {
     transform: rotate(360deg);
